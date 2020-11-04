@@ -1,0 +1,60 @@
+CODE From Prateek
+
+Version 0:
+- No arrows
+- test code depends on attached cases (mat file)
+- Haralick mex file is missing
+
+Version 1: 
+- Arrows functions and code commented
+- Test is based on simple image matrix and mask
+
+Version 2:
+- Haralick mex file added
+- Test haralick code added
+- ComputeV.m is added (svd is performed separately)
+- Code cleaned up
+ 
+CODE FOR Prateek
+ 
+Version 1:
+- SVD as exe 
+- slow 
+
+Version 2:
+- still slow 
+- SVD C++ code modified
+ 
+Version 3:
+- SVD C++ code mexed
+- Fast
+ 
+Version 4: 
+- All haralicks included
+ 
+ 
+Ver - 5
+- We noticed it doesn't work properly due to using atan in place of atan2, 
+- Atan2 is now imported from C++ STD, mexed and used instead of the built in function
+- We previously used atan to handle the sign discepancy from ComputeV
+- Because both ComputeV and Atan_2 are implemented in C++, no need for using atan or the if statements after it.
+- Haralick code updated and re-mexed
+- Paths Case Directories are automatically detected
+- parfor supported 
+- Input haralick indices range is 1-13, outbut baseline image range is 0-12
+
+Ver - 6 
+- function compute_CoLlAGe2D accepts empty tumorMask passed to it
+- Approximation step added after Atan_2 to make sure intermediate results are the same
+- findOrientation code refined
+
+Ver - 7 - 8/12/2017
+- Code on bitbucket tag
+- Data is classified to 4 groups now
+- A spreadsheet describing patient groups for testing data is added
+- User input for test params is GUI-based via input dialogs
+- compute_CoLlAGe2D process the whole image with an additional boolean argument
+- Three new helper functions were added: GetNameFromPath, IsTwoLevelMask, findInStringList
+- Assertions function updated, renamed to AssertTestInput, and moved to /Tests
+- 
+- 
