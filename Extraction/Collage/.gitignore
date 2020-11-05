@@ -16,6 +16,9 @@
 /Code/MEX_ComputeV/VNL/src/vxl/core/vnl/algo/Templates/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/core/vnl/algo/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/core/vnl/algo/tests/desktop.ini
+/Code/MEX_ComputeV/VNL/src/vxl/core/vnl/desktop.ini
+/Code/MEX_ComputeV/VNL/src/vxl/core/vnl/examples/desktop.ini
+/Code/MEX_ComputeV/VNL/src/vxl/core/vnl/io/Templates/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/core/vnl/io/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/core/vnl/io/tests/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/core/vnl/tests/desktop.ini
@@ -42,6 +45,7 @@
 /Code/MEX_ComputeV/VNL/src/vxl/v3p/netlib/sparse/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/v3p/netlib/temperton/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/v3p/netlib/tests/desktop.ini
+/Code/MEX_ComputeV/VNL/src/vxl/v3p/netlib/toms/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/vcl/compilers/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/vcl/desktop.ini
 /Code/MEX_ComputeV/VNL/src/vxl/vcl/doc/desktop.ini
